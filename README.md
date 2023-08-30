@@ -51,3 +51,9 @@ There are 13 columns in each csv file. The column names in each data set are the
 
 **C**ited: No issues here. Data is first-party data collected by Cyclistic. 
 
+## Process
+Excel has a limit of 1,048,567 rows. The data for 13 months of bike trips has over 6.5 million rows. Needed to use BigQuery to be able to combine and clean the entire dataset from July 2022 to July 2023.
+I couldn't upload directly onto BigQuery due to file size limits of 100 MB so I Uploaded 13 CVS files into a Google Cloud Storage Bucket labeled: cyclistic_data_set.
+From there I was able to create 13 tables in BigQuery with the format YYYYMM_tripdata.
+
+
