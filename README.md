@@ -1,1 +1,1 @@
-# cyclistic-case-study
+# Cyclistic-Case-Study
