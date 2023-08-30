@@ -1,4 +1,4 @@
---combining 13 months of data from July 2022 to July 2023
+ --combining 13 months of data from July 2022 to July 2023
 
 CREATE TABLE radiant-ion-397303.cyclistic_dataset.combined_data AS (
   SELECT * FROM radiant-ion-397303.cyclistic_dataset.202207_tripdata
