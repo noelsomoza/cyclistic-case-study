@@ -1,7 +1,7 @@
 # Cyclistic-Case-Study
 
 ## Introduction
-In this case study, I am tasked to perform job roles as a junior data analyst for a fictional company known as _Cyclistic_. I will be following the data analysis process: **ask, prepare, analyze, share, and act**
+In this case study, I am tasked to perform job roles as a junior data analyst for a fictional company known as _Cyclistic_. I will be following the data analysis process: **ask, prepare, process, analyze, share, and act**
 
 ### Data Source
 [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) [accessed on 08/21/23]
