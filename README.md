@@ -36,5 +36,18 @@ Convert Cyclistics’ casual riders into annual members.
 ### Data Source
 I will use Cyclistic's historical trip [data](https://divvy-tripdata.s3.amazonaws.com/index.html) from July 2022 to July 2023 to analyze rider trends. The data was made available by Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement).
 
+### Data Organization
+13 CSV files, each file containing the trip data for the month. The naming convention of each file is the following: YYYYMM-divvy-tripdata.csv
 
+There are 13 columns in each csv file. The column names in each data set are the following: ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng and member_casual.
+
+**R**eliable: Some issues here. Several columns have missing/NULL data, including start_station_name, start_station_id, end_station_name, end_station_id, end_lat, end_lng.
+
+**O**riginal: No issues here. Data is stored in Cyclistic databases after collecting directly from their bikes. 
+
+**C**omprehensive: Some issues here. Much of the location data (as mentioned earlier) is missing, makes it difficult to run geographic analyses.  
+
+**C**urrent: No issues here. Data is current up to most recent completed month, to date (July 2023)
+
+**C**ited: No issues here. Data is first-party data collected by Cyclistic. 
 
