@@ -31,3 +31,10 @@ _Moreno has assigned you the first question to answer:_ **How do annual members 
 ### Business Task
 Convert Cyclistics’ casual riders into annual members.
 
+## Prepare
+
+### Data Source
+I will use Cyclistic's historical trip [data](https://divvy-tripdata.s3.amazonaws.com/index.html) from July 2022 to July 2023 to analyze rider trends. The data was made available by Motivate International Inc. under this [license](https://ride.divvybikes.com/data-license-agreement).
+
+
+
