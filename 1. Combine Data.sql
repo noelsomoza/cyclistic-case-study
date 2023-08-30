@@ -29,3 +29,6 @@ CREATE TABLE radiant-ion-397303.cyclistic_dataset.combined_data AS (
 
 )
 ;
+-- count number of rides which are 6,547,094
+SELECT COUNT(*) AS total_rides
+FROM radiant-ion-397303.cyclistic_dataset.combined_data
